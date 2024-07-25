@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.master {
+    height: 500px;
+    width: 400px;
+    background-color: lightgray;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px 8px;
+}
+
+.second {
+    background-color: lightblue;
+    flex: 1 1 auto;
+    display: flex;
+    gap: 8px;
+    padding: 0px 8px;
+}
+
+.button {
+    background-color: lightsalmon;
+    flex: 1 1 auto;
+    width: 25px;
+}
+
+#zero {
+    flex: 2 1 auto;
+    width: 50px;
+    padding: 0px 4px;
+}
