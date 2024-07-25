@@ -1,13 +1,13 @@
 body {
     height: 100vh;
-
+    background-color: darkgray;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .master {
-    height: 500px;
+    height: 600px;
     width: 400px;
     background-color: lightgray;
     margin: auto auto;
@@ -18,7 +18,7 @@ body {
 }
 
 .second {
-    background-color: lightblue;
+    background-color: lightgray;
     flex: 1 1 auto;
     display: flex;
     gap: 8px;
@@ -29,10 +29,36 @@ body {
     background-color: lightsalmon;
     flex: 1 1 auto;
     width: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+}
+
+.screen {
+    background-color: lightblue;
+    flex: 1 1 auto;
+    width: 25px;
+    align-items: end;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
 
 #zero {
     flex: 2 1 auto;
     width: 50px;
     padding: 0px 4px;
+}
+
+.second > .number {
+    background-color: lightseagreen;
 }
